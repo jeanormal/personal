@@ -1,0 +1,159 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+
+
+body{
+    background-color:rgb(13, 13, 14) ;
+    text-align: center;
+    justify-content: space-between;
+    margin: 40px;
+    padding: 30px 50px;
+    }
+    #imagem1{
+        border-radius: 50%;
+        width: 100px;
+        border:5px solid rgb(4, 4, 4);
+       
+    }
+    #imagem2{
+        width: 250px;
+        
+    }
+    nav{
+        text-align: center;
+    }
+    nav a:hover{
+        color:rgb(5, 239, 36);
+    }
+    
+h1{
+    font-family:'Cinzel';
+    color:rgb(230, 232, 233);
+    
+    
+}
+span{
+    font-family:"Quicksand";
+    color:darkkhaki;
+    font-size: 60px;
+    
+}
+h2{
+    color:rgb(229, 195, 101);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 29px;
+}
+p{color: rgb(229, 195, 101);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+
+}
+a{
+    color:rgb(229, 195, 101);
+    font-family:Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    justify-content: space-between;
+
+    
+}
+footer p{
+    font-size: 20px;
+   font-family:'Times New Roman';
+   color: white;
+   
+   margin-top: 30px;
+    
+}
+footer{
+    margin-top: 30px;
+}
+   /*ícones das redes sociais*/ 
+footer a{
+    margin:10px;
+    align-items: center;
+    text-align: center;
+    
+    
+}
+/*copy right*/
+footer p{color: white;
+    font-family:initial;
+    font-size: 15px;
+    font-style: italic;
+    margin-top: 30px;
+    padding-top:80px;
+
+    
+    
+
+}
+ul {
+    position: absolute;
+    top:20px;
+    right:20px;
+    color:rgb(155, 149, 68);
+    padding: 5px;
+    list-style: none;
+    }
+    li{
+        padding: 10px;
+        display: inline;
+    }
+    form label{
+        color:rgb(155, 149, 68);
+    }
+   section{
+    display:flex;
+    align-items: center;
+     flex-direction: column;
+     padding: 10px 45px;
+     width: 500px;
+    }
+    section h2{
+        font-size: 2.5rem;
+    }
+    section form{
+        display:flex;
+        flex-direction:column ;
+        width: 100%;
+    }
+    form label{
+        font-size: 17px;
+        margin-bottom:4px;
+    }
+    form input{
+        padding: 15px;
+        outline:none;
+        border:0;
+        margin-bottom: 20px;
+        font-size: 15px;
+        transition:all 0.5s;
+    }
+    form input:focus{
+        border-radius: 16px;
+    }
+    form textarea{
+        padding: 10px;
+        outline: none;
+        border:0;
+        font-size: 15px;
+        margin-bottom: 30px;
+        transition: all 0.5s;
+    }
+    form textarea:focus{
+        border-radius: 16px;
+        
+    }
+
+
+    
+    
+
+
+
+
+  
+    
+
